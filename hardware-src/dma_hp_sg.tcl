@@ -142,7 +142,7 @@ set imported_files [import_files -fileset sources_1 $files]
 # None
 
 # Set 'sources_1' fileset file properties for local files
-set file "hdl/dma_hp_sg_wrapper.vhd"
+set file "dma_hp_sg_wrapper.vhd"
 set file_obj [get_files -of_objects [get_filesets sources_1] [list "*$file"]]
 set_property -name "file_type" -value "VHDL" -objects $file_obj
 
